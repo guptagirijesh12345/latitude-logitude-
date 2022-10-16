@@ -60,5 +60,5 @@
             $query1=$this->db->query("select * from thread_table where (sender_id='$sender_id' AND receiver_id='$receiver_id') 
             OR (sender_id='$receiver_id' AND receiver_id='$sender_id')")->row_array();
              return $query1; 
-         }
+       }
     }
