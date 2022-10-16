@@ -1,6 +1,6 @@
 // chat api
-
 //controller
+
  public function userChat_post()
        {  
         $data=[
